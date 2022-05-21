@@ -39,18 +39,27 @@
 
 <!--hero / jumbotron-->
 <section class="hero">
-        <div>
+        <div class="hero-form"
         <h3>Get Started Today</h3>
         <p>Fill out this form and one of our trainers will schedule a consult</p>
         
 <!--add some form elements-->
 <form>
                 <label for="name">Enter Full Name:</label>
+        <p>
                 <input type="text" placeholder="Your Name" name="name" id="name" />
+        </p>        
+        <div>
                 <label for="email address">Enter E-mail Address:</label>
+        <p>
                 <input type="email" placeholder="Your E-mail" name="email" id="email" />
+        </p>
+        </div>
+
                 <label for="phone number">Enter Phone Number:</label>
-                <input typle="text" placeholder="Your Phone Number" name="phone" id="phone" />        
+        <p>
+                <input typle="text" placeholder="Your Phone Number" name="phone" id="phone" />  
+        </p>      
         <p>
                 Have you worked out with a trainer before?
                 <input type="radio" name="trainer confirm" id="trainer-yes" />
@@ -58,7 +67,6 @@
                 <input type="radio" name="trainer confirm" id="trainer-no" />
                 <label for="trainer-no">No</label>
         </p>   
-        </div>
         <label       
         <p>     I acknowledge that I am at least 18 years of age.
                 <input type="checkbox" name="age consent" />
