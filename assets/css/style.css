@@ -96,7 +96,7 @@ section {
     margin: 5px 0 15px 0;
 }
 
-.hero form h3 {
+.hero-form h3 {
     margin: 0;
     font-size: x-large;
 }
@@ -109,4 +109,8 @@ section {
     display: block;
     padding: 7px 15px;
     margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
 }
