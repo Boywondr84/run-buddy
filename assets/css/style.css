@@ -128,29 +128,45 @@ img {
     width: 200px;
 }
 
-.what-style {
-    text-align: center;
-}
-
-.what-style h2 {
+.section-title {
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
     border-bottom: 3px solid;
     padding: 0px 100px 20px 100px;
-    border-color: #fce138;
-    display: inline-block;    
+    display: inline-block;
 }
 
-.what-style h3 {
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
+.intro {
+    text-align: center;
+}
+
+.steps h3 {
     color: #024e76;
     font-size: 30px;
 }
 
-.what-style p {
+.steps p {
     color: #39a6b2;
     line-height: 1.7;
     font-size: 20px;
     width: 80%;
     margin: 0 auto;
+}
+
+.steps {
+    background: #fce138;
+    text-align: center;
+}
+
+.steps span {
+    font-size: 38px;
 }
