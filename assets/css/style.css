@@ -254,12 +254,10 @@ img {
 
 /* Contact Container */
 .contact-info {
-    background-color: #024e76;
-    display: block;
 }
 
-.contact h3 {
-    color: #fce138;
+.contact {
+    
 }
 
 .contact p {
