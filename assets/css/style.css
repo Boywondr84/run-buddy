@@ -224,10 +224,10 @@ img {
     text-align: right;
 }
 
-.trainer-gill img {
+/* Trainer Gill */
+.trainer-1 {
+    background-color: #024e76;
     float: right;
-    width: 35%;
-    height: 100%;
 }        
 
 .trainer-gill {
@@ -250,4 +250,18 @@ img {
 .trainer-gill p {
     font-size: 17px;
     line-height: 1.3;
+}
+
+/* Contact Container */
+.contact-info {
+    background-color: #024e76;
+    display: block;
+}
+
+.contact h3 {
+    color: #fce138;
+}
+
+.contact p {
+    color:
 }
