@@ -253,13 +253,34 @@ img {
 }
 
 /* Contact Container */
-.contact-info {
+.contact {
+    background-color: #024e76;
+    text-align: center;
 }
 
-.contact {
-    
+.contact h2 {
+    color: #fce138;
+}
+
+.contact h3 {
+    color: #fce138;
 }
 
 .contact p {
-    color:
+    color: white;
+}
+
+.contact address {
+    color: white;
+}
+
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 0 0 0 60px;
+}
+
+.final {
+    display: inline-block;
 }
