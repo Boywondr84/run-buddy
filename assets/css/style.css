@@ -264,10 +264,19 @@ img {
 
 .contact h3 {
     color: #fce138;
+    font-size: 32px;
+    padding-bottom: 10px;
 }
 
-.all-contact {
+.contact p, .contact address {
     color: white;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.contact a {
+    color: #fce138;
 }
 
 .map-info iframe {
@@ -282,8 +291,6 @@ img {
     width: 450px;
     margin: 30px 0 0 60px;
     vertical-align: top;
-    font-size: 22px;
     text-align: left;
-    line-height: 1.5;
 }
 /* Reach out ends */
