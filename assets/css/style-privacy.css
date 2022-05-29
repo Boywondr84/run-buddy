@@ -42,22 +42,51 @@ header nav ul li a {
 /* Hero starts */
 .hero-privacy {
     background-image: url(../images/hero-bg.jpg);
-    height: 250px;
+    height: 230px;
     padding: 0 500px 0 500px;
     background-position: bottom;
     background-size: cover;
+    position: relative;
+    margin-bottom: 40px;
 }
 
 .hero-privacy h2 {
     color: #fce138;
     border-color: #fce138;
-    border-bottom: 5px solid;
+    border-bottom: 4px solid;
     text-align: center;
-    padding: 85px 0 20px 0;
-    font-size: 50px;
+    padding: 78px 80px 23px 80px;
+    font-size: 42px;
     font-style: italic;
+    font-weight: normal;
 }
-/* TODO fix border width */
+
+.secondary-content {
+    width: 80%;
+    margin: auto;
+    color: #024e76;
+}
+
+.secondary-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0 20px 0;
+}
+
+.secondary-content h3 {
+    font-size: 25px;
+    padding-bottom: 15px;
+    margin: 20px 0 20px 0;
+}
+
+.secondary-content ul {
+    margin: 15px 20px 15px 20px;
+}
+
+.secondary-content li {
+    color: #39a6b2;
+    margin: 10px 0 10px 0;
+}
 
 footer {
     background-color: #fce138;
