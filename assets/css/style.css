@@ -299,7 +299,7 @@ img {
     width: 400px;
     height: 400px;
     display: inline;
-    margin: 0 15px 0 0;
+    margin: 0 250px 0 0;
 }
 
 .final {
@@ -308,5 +308,16 @@ img {
     margin: 30px 0 0 60px;
     vertical-align: top;
     text-align: left;
+}
+
+.contact-us {
+    display: inline-block;
+    color: #fce138;
+    font-size: 32px;
+}
+
+.contact label {
+    color: white;
+    font-size: 15px;
 }
 /* Reach out ends */
