@@ -152,10 +152,15 @@ img {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
     border-bottom: 3px solid;
-    padding: 0px 100px 20px 100px;
-    display: inline-block;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+}
+
+.intro p{
+    text-align: center;
 }
 
 .primary-border {
@@ -164,10 +169,6 @@ img {
 
 .secondary-border {
     border-color: #39a6b2;
-}
-
-.intro {
-    text-align: center;
 }
 
 .steps h3 {
@@ -186,7 +187,6 @@ img {
 
 .steps {
     background: #fce138;
-    text-align: center;
 }
 
 .steps span {
@@ -197,7 +197,6 @@ img {
 /* Trainer Info starts */
 .trainers {
     border: 2px solid black;
-    text-align: center;
 }
 
 .trainer {
@@ -244,6 +243,10 @@ img {
     text-align: right;
 }
 
+.flex-row {
+    display: flex;
+}
+
 /* Trainer Gill */
 .trainer-1 {
     background-color: #024e76;
@@ -275,7 +278,6 @@ img {
 /* Reach out Container */
 .contact {
     background-color: #024e76;
-    text-align: center;
 }
 
 .contact h2 {
