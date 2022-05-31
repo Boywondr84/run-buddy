@@ -73,11 +73,27 @@ section {
 
 /* Hero Style Start */
 .hero {
-    background-image: url(../images/hero-bg.jpg);
+    background-image: url(../images/hero-bg-2.jpg);
     height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
+}
+
+#box-left h2 {
+    color: #fce138;
+    text-align: right;
+    padding-right: 700px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-style: italic;
+}
+
+#box-left p {
+    color: white;
+    padding: 0 700px 0 200px;
+    margin-top: 5px;
+    text-align: right;
 }
 
 .hero-form {
