@@ -312,13 +312,13 @@ section {
 
 .map-info iframe {
     height: 400px;
-    margin-right: 100px;
-    padding-left: 50px;
+    padding-left: 100px;
 }
 
 .contact-us {
     color: #fce138;
     font-size: 32px;
+    padding-left: 50px;
 }
 
 .contact label {
